@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7ADCCD9A1D93BD5B00368F18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCD991D93BD5B00368F18 /* AppDelegate.swift */; };
-		7ADCCD9C1D93BD5B00368F18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCD9B1D93BD5B00368F18 /* ViewController.swift */; };
 		7ADCCD9E1D93BD5B00368F18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ADCCD9D1D93BD5B00368F18 /* Assets.xcassets */; };
-		7ADCCDA11D93BD5B00368F18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADCCD9F1D93BD5B00368F18 /* Main.storyboard */; };
 		7ADCCDAC1D93BD5B00368F18 /* hahahahaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCDAB1D93BD5B00368F18 /* hahahahaTests.swift */; };
 		7ADCCDB71D93BD5B00368F18 /* hahahahaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCDB61D93BD5B00368F18 /* hahahahaUITests.swift */; };
-		7ADCCDC51D93BDAB00368F18 /* BluredWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADCCDC41D93BDAB00368F18 /* BluredWindow.swift */; };
+		7AF6E0621DC083F4002C73CF /* statusMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6E0611DC083F4002C73CF /* statusMenu.xib */; };
+		7AF6E0641DC0E68B002C73CF /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6E0631DC0E68B002C73CF /* Menu.xib */; };
+		7AF6E0661DC0E756002C73CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AF6E0651DC0E756002C73CF /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +36,7 @@
 /* Begin PBXFileReference section */
 		7ADCCD961D93BD5B00368F18 /* cashminer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cashminer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADCCD991D93BD5B00368F18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7ADCCD9B1D93BD5B00368F18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7ADCCD9D1D93BD5B00368F18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7ADCCDA01D93BD5B00368F18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7ADCCDA21D93BD5B00368F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7ADCCDA71D93BD5B00368F18 /* cashminer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cashminer.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADCCDAB1D93BD5B00368F18 /* hahahahaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahahahaTests.swift; sourceTree = "<group>"; };
@@ -46,7 +44,9 @@
 		7ADCCDB21D93BD5B00368F18 /* cashminer.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cashminer.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADCCDB61D93BD5B00368F18 /* hahahahaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hahahahaUITests.swift; sourceTree = "<group>"; };
 		7ADCCDB81D93BD5B00368F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ADCCDC41D93BDAB00368F18 /* BluredWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluredWindow.swift; sourceTree = "<group>"; };
+		7AF6E0611DC083F4002C73CF /* statusMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = statusMenu.xib; sourceTree = "<group>"; };
+		7AF6E0631DC0E68B002C73CF /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
+		7AF6E0651DC0E756002C73CF /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				7ADCCD991D93BD5B00368F18 /* AppDelegate.swift */,
-				7ADCCD9B1D93BD5B00368F18 /* ViewController.swift */,
-				7ADCCD9F1D93BD5B00368F18 /* Main.storyboard */,
-				7ADCCDC41D93BDAB00368F18 /* BluredWindow.swift */,
+				7AF6E0631DC0E68B002C73CF /* Menu.xib */,
 				7ADCCD9D1D93BD5B00368F18 /* Assets.xcassets */,
 				7ADCCDA21D93BD5B00368F18 /* Info.plist */,
+				7AF6E0611DC083F4002C73CF /* statusMenu.xib */,
+				7AF6E0651DC0E756002C73CF /* MainMenu.xib */,
 			);
 			path = hahahaha;
 			sourceTree = "<group>";
@@ -230,7 +230,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ADCCD9E1D93BD5B00368F18 /* Assets.xcassets in Resources */,
-				7ADCCDA11D93BD5B00368F18 /* Main.storyboard in Resources */,
+				7AF6E0641DC0E68B002C73CF /* Menu.xib in Resources */,
+				7AF6E0621DC083F4002C73CF /* statusMenu.xib in Resources */,
+				7AF6E0661DC0E756002C73CF /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,9 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7ADCCD9C1D93BD5B00368F18 /* ViewController.swift in Sources */,
 				7ADCCD9A1D93BD5B00368F18 /* AppDelegate.swift in Sources */,
-				7ADCCDC51D93BDAB00368F18 /* BluredWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,17 +291,6 @@
 			targetProxy = 7ADCCDB31D93BD5B00368F18 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7ADCCD9F1D93BD5B00368F18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ADCCDA01D93BD5B00368F18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7ADCCDB91D93BD5B00368F18 /* Debug */ = {

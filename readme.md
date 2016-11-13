@@ -17,3 +17,17 @@
     	print(a+b)
     }
 스위프트를 주 언어로 사용할 예정이다.
+
+## 현제상황
+
+### 진행도
+60~70% 기본기능 작동.
+
+### 문제점
+ViewController의 override된 *keyDown*메소드의 작동유뮤가 확인되지 않음.
+
+	override func keyDown(theEvent : NSEvent) {
+			
+	NSNortificationCenter.defaultCenter().postNotificationName("com.pabix.EnterKeyDown")
+	}
+
